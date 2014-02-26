@@ -1,10 +1,15 @@
 {
     "name": "nahidz/imagex",
-    "description": "",
+    "description": "Imagex is an Image handling handy library",
+    "keywords": ["image", "resizer", "resize", "compress", "nahid"],
+    "homepage": "http://github.com/nahidz/imagex",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mehedi Hasan Nahid",
-            "email": "nahid.dns@gmail.com"
+            "email": "nahid.dns@gmail.com",
+            "homepage":"http://nahid.co"
         }
     ],
     "require": {
