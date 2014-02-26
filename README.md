@@ -23,9 +23,13 @@ Syntax:
 Imagex::load($photoName, $optionsArray)->action($parameter)->save();
 
 List of Action:
+
 resizeToHeight($height)
+
 resizeToWidth($width)
+
 scale($scale)
+
 resize($width, $height)
 
 Options:
@@ -41,9 +45,12 @@ array(
 
 Example
 =======
-Imagex::load('file', array('public/images/', 'my_photo.jpg'))->resizeToWidth(480)->save();
+Imagex::load('file', array('path'=>'public/images/', 'name'=> 'my_photo.jpg'))->resizeToWidth(480)->save();
+
 
 thats it.
+
 Thank you :)
+
 
 
